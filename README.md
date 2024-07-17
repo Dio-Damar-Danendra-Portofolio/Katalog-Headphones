@@ -1,1 +1,2 @@
-Portofolio HTML dan CSS yang berisi katalog Headphones
+Study Case: Katalog Headphones
+Isi: Folder Gambar, Codingan HTML, Codingan CSS
