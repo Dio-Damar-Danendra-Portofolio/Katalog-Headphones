@@ -344,8 +344,8 @@
 	}
 
 	.gambar_produk{
-		max-width: 18%;
-		max-height: 18%;
+		max-width: 300px;
+		max-height: 300px;
 		flex: 1 1 100px;
 	}
 	
@@ -384,7 +384,7 @@
 	.varian{
 		max-width: 300px;
 		max-height: 300px;
-		flex: 2 2 200px; 
+		flex: 1 1 100px; 
 	}
 	
 	.varian img{
@@ -420,9 +420,9 @@
 	}
 	
 	.kemasan_produk{
-		max-width: 18%; 
-		max-height: 18%; 
-		flex: 1 1 110px;
+		max-width: 300px;
+		max-height: 300px;
+		flex: 1 1 100px; 
 	}
 	.
 	.kemasan_produk img{
@@ -504,8 +504,8 @@
 	
 	.bagian{
 		flex: 1 1 100px;
-		max-width: 85%;
-                max-height: 85%;
+		max-width: 300px;
+                max-height: 300px;
 	}
 	
 	.bagian img{
@@ -566,8 +566,8 @@
 	
 	.spare_part{
 		flex: 1 1 100px;
-		max-width: 76%;
-                max-height: 76%;
+		max-width: 300px;
+                max-height: 300px;
 	}
 	
 	.spare_part img{
