@@ -186,8 +186,8 @@
 	}
 
 	.gambar_headphones{
-		max-width: 309px;
-		max-height: 309px;
+		max-width: 50%;
+		max-height: 50%;
 		flex: 1 1 300px;
 		position: relative;
 		padding: 2px;
