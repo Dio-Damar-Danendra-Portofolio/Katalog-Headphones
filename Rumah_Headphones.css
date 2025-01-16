@@ -186,19 +186,27 @@
 	}
 
 	.gambar_headphones{
+		max-width: 309px;
+		max-height: 309px;
 		flex: 1 1 300px;
 		position: relative;
 		padding: 2px;
 	}
 
 	.gambar_headphones img{
-		max-width: 309px;
-		max-height: 309px;
+		
+		width: 100%;
+    		height: auto;
+    		display: block;
+		border-radius: 10px;
+    		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    		transition: transform 0.2s ease, box-shadow 0.2s ease;
 	}
 
 	.gambar_headphones img:hover{
 		cursor: pointer;
-
+		transform: scale(1.05);
+    		box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 	}
 
 	.jenis_headphones{
@@ -341,12 +349,18 @@
 	}
 	
 	.gambar_produk img{
-		max-width: 50%;
-		max-height: 50%;
+		width: 100%;
+    		height: auto;
+    		display: block;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    		transition: transform 0.2s ease, box-shadow 0.2s ease;
 	}
 
 	.gambar_produk img:hover{
 		cursor: pointer;
+		border-radius: 10px;
+    		transform: scale(1.05);
+    		box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 	}
 
 	.kontainer_varian{
@@ -374,6 +388,9 @@
 	.varian img{
 		max-width: 300px;
 		max-height: 300px;
+		border-radius: 10px;
+    		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    		transition: transform 0.2s ease, box-shadow 0.2s ease;
 	}
 
 	.varian img:hover{
@@ -405,6 +422,11 @@
 	.kemasan_produk img{
 		max-width: 18%; 
 		max-height: 18%; 
+	}
+
+	.kemasan_produk img:hover {
+    		transform: scale(1.05);
+    		box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 	}
 	
 	.image_preview{
