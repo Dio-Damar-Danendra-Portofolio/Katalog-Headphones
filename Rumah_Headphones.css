@@ -205,7 +205,7 @@
 
 	.gambar_headphones img:hover{
 		cursor: pointer;
-		transform: scale(0.07);
+		transform: scale(1.02);
     		box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 	}
 
@@ -360,7 +360,7 @@
 	.gambar_produk img:hover{
 		cursor: pointer;
 		border-radius: 10px;
-		transform: scale(0.07);
+		transform: scale(1.02);
     		box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 	}
 
@@ -397,7 +397,7 @@
 	.varian img:hover{
 		cursor: pointer;
 		border-radius: 10px;
-		transform: scale(0.07);
+		transform: scale(1.02);
     		box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 	}
 
@@ -434,7 +434,7 @@
 	.kemasan_produk img:hover {
     		cursor: pointer;
 		border-radius: 10px;
-		transform: scale(0.07);
+		transform: scale(1.02);
     		box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 	}
 	
@@ -516,7 +516,7 @@
 	.bagian img:hover{
 		cursor: pointer;
 		border-radius: 10px;
-		transform: scale(0.07);
+		transform: scale(1.02);
     		box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 	}
 	
@@ -566,9 +566,20 @@
 	}
 	
 	.spare_part img{
-		max-width: 76%;
-                max-height: 76%;
+		width: 100%;
+    		height: auto;
+    		display: block;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    		transition: transform 0.2s ease, box-shadow 0.2s ease;
 	}
+
+	.spare_part img:hover{
+		cursor: pointer;
+		border-radius: 10px;
+		transform: scale(1.02);
+    		box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+	}
+
 	
 	.gambar_spare_part{
 		display: flex;
