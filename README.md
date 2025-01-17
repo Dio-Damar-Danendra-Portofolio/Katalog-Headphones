@@ -1,2 +1,2 @@
 Study Case: Katalog Headphones
-Isi: Folder Gambar, Codingan HTML, CSS dan JavaScript
+Isi: Folder Gambar, Codingan HTML, Codingan CSS
