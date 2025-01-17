@@ -1,3 +1,5 @@
+window.alert("Ini merupakan situs portofolio. Nomor teleponnya bukan nomor asli,\n melainkan nomor buatanku sendiri");
+
 document.addEventListener("DOMContentLoaded", () => {
     const produk = document.querySelectorAll(".gambar_produk img");
     produk.forEach(item => {
@@ -35,5 +37,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function unavailableProduct() {
     window.alert("Maaf, produk ini tidak tersedia...");
-   
 }
